@@ -1,3 +1,37 @@
 body {
     background-color: yellow;
 }
+
+.pie {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    max-width: auto;
+    margin-bottom: 1em;
+    flex: 0 0 33.3333%
+}
+
+.card {
+    margin-bottom: 2rem;
+	background-color: #ffffff;
+	box-shadow: 2px 6px 6px 0px;
+	border: 1px solid rgb(15, 14, 12);
+    padding: 1rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+
+
+}
+
+img {
+    align-content: center;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto; 
+  }
